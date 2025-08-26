@@ -10,7 +10,11 @@
   "description": "",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.12",
-    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-canary.1858"
   }
 }

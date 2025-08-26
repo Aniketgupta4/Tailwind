@@ -1,13 +1,54 @@
+        <!-- setup tailwind with parcel 
+            ise run hoga -> npx parcel src/index.html   
+            if koi error aye so gitignore pe node_modules add kar do 
+        -->
+
 <!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- the way to link css in tailwind -->
     <link href="./index.css" type="text/css" rel="stylesheet" />
-  </head>
+
+</head>
   <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </body>
+
+    <!-- Tailwind CSS ek utility-first CSS framework hai jisme aap predefined classes ka use karke bina manually CSS likhe fast aur responsive UI bana sakte ho. -->
+    <!-- advantages -> 1) ki bar bar css file mai jana ni padta
+                       2) ex -> any big website amazon -> to much pages -> normal css use 2 developers working on it -> 1 css file is there so dono developers bana ray hai agar ek ek button dono mai sab same hai sirf color ka differnce hai so -> too much code same only color is difference so code bohot likhna padega big css file so -> use tailwind ye bani hui hai we have to only use so file size bada ni hoga as css so it is preferrable to use -> tailwind and in tailwind same class use multiple jagay pe easy and less file size of css reusability hori hai bohot -> so use tailwind and tailwind mai bhi bohot sare classes hngi jo use nimkiye hm apne code pe wo bundler remove kar dega tailwind se so code compatibility in tailwind -> so use tailwind
+                       3) 
+                       -->
+    
+    
+    
+    
+     <!-- bg-red-500 -> ye ek class hai jisme sab likha hoga kya kaise hoga properties likhi hongi in tailwind -> we use class name only -->
+   
+           <!-- <h1 class=" bg-red-500 font-bold text-gray-600 m-4 p-4 rounded-xl "> Aniket </h1> -->
+
+    
+    <!-- 1) color ( 50 to 950 intensity hai ye ) bg-red-500 -> for black and white no 50 100 kuch only -> bg-black , bg-white -->
+
+       <!-- <h1 class=" bg-red-500 font-bold text-gray-600 m-4 p-4 rounded-xl "> Aniket </h1> -->
+
+
+    <!-- 2) border (default 1px) -> border-4 border-blue-500  or border-t-4 = top pe border only border-tr-4 = right pe and so on -->
+    <!-- rounded se round ho jayega -->
+
+         <!-- <h1 class=" bg-red-500 font-bold border-4 border-blue text-gray-600 m-4 p-4 rounded-xl "> Aniket </h1> -->
+
+         <!-- <h1 class="border-t-5 border-blue-500">hello buddy</h1> -->
+
+     <!-- 3) padding (p-2 and pl-2 pr-2 pb-2 pt-2) and margin(m-2 mt-2 mb-2 mr-2 ml-2) -> 1 points to 4px and 16px = 1rem in tailwind -->
+     <!-- ******* p-[1px] hardcode ki itna hi hai normal 1px -->
+
+     <!-- <button class="bg-teal-500 rounded border-2 p-2 m-2">submit</button> -->
+     <!-- <button class="bg-teal-500 rounded border-2 pt-2 mt-2 pb-2 mb-2">submit</button> -->
+
+      <div id="root"></div>
+
+      <script type="module" src="App.js"></script>
+</body>
 </html>
