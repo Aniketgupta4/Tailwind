@@ -1,8 +1,7 @@
-# 🎨 Tailwind CSS Practice Project
+# 🎨 Tailwind CSS Practice
 
 ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-blue?logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
 ![Open Source](https://img.shields.io/badge/Open%20Source-💻-brightgreen)
 ![Made with ❤️ by Aniket](https://img.shields.io/badge/Made%20with-❤️-red)
 
@@ -30,7 +29,6 @@ This is perfect for beginners or anyone wanting to **improve their frontend skil
 |------|-------------|
 | 🧱 HTML5 | Structure and semantic content |
 | 🎨 Tailwind CSS | Styling and utility-first framework |
-| ⚡ JavaScript | Interactivity (optional) |
 | 💻 Fonts & Icons | Google Fonts, Heroicons for visuals |
 
 ---
